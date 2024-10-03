@@ -1,0 +1,109 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-image: linear-gradient(#ec82ff, #3587e6);
+    color: aliceblue;
+}
+
+figure img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    width: 30vw;
+    margin: 0 auto;
+    color: unset;
+}
+
+figure { 
+    max-width: 160px;
+    max-height: 160px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, p, li, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+section {
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+.card {
+    color: #B8336A;
+    border: 1px solid #C490D1;
+    background-color: #cdebf0;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 2;
+}
+
+.card-container {
+    display: flex;
+    grid-gap: 20px;
+    justify-content: space-around;
+}
+
+.introducao {
+    color: #0f205d;
+    border: 1px solid #C490D1;
+    background-color: #ededed;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 2;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 40px;
+    color: 000
+}
+
+.redes ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.redes a span {
+    color: white;
+}
+
+li {
+    margin-right: 10px;
+}
+
+a:-webkit-any-link {
+    color: unset;
+}
+
+li:last-child {
+    margin-right: 0; 
+}
+
+@media (max-width: 671px) {
+    .card-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    main {
+        width: 90vw;
+    }
+
+}
